@@ -1,0 +1,2205 @@
+* {
+   padding: 0;
+   margin: 0;
+   font-family: "poppins", sans-serif;
+}
+
+body {
+  background-color: #000000;
+}
+
+.navbar {
+  position: fixed;
+  z-index: 1;
+  width: 100%;
+  height: 60px;
+  background-color: #23252B;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.options{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 500px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo span {
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 900;
+  font-size: 20px;
+}
+
+.options p {
+  height: 60px;
+  width: 82px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: large;
+}
+
+#browse {
+  height: 60px;
+  width: 112px;
+  color: #FFFFFF;
+  background-color: #23252B;
+  border: none;
+  font-family: "poppins", sans-serif;
+  font-weight: 400px;
+  text-align: center;
+  font-size: medium;
+  padding-left: 20px;
+}
+
+#browse option {
+  text-align: left;
+}
+
+#news {
+  height: 60px;
+  width: 99px;
+  color: #FFFFFF;
+  background-color: #23252B;
+  border: none;
+  font-family: "poppins", sans-serif;
+  font-weight: 400px; 
+  text-align: center;
+  font-size: medium;
+}
+
+#news option {
+  text-align: left;
+}
+
+.navbar p {
+  color: #FFFFFF;
+  font-weight: 400px;
+  font-size: medium;
+}
+
+.logo span {
+  color: #FF7B2E;
+}
+
+.icons {
+  display: flex;
+  color: #FFFFFF;
+}
+
+.icons .search {
+  font-size: large;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60px;
+  width: 60px;
+}
+
+.icons .save {
+  font-size: large;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60px;
+  width: 60px;
+}
+
+.icons .user {
+  font-size: large;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60px;
+  width: 60px;
+}
+
+#browse:hover {
+  background-color: #141519;
+  cursor: pointer;
+}
+
+.options p:hover {
+  background-color: #141519;
+  cursor: pointer;
+}
+
+#news:hover {
+  background-color: #141519;
+  cursor: pointer;
+}
+
+.logo span:hover {
+  color: #FFFFFF;
+  cursor: pointer;
+}
+
+.icons .search:hover {
+  background-color: #141519;
+  cursor: pointer;
+}
+
+.icons .save:hover {
+  background-color: #141519;
+  cursor: pointer;
+}
+
+.icons .user:hover {
+  background-color: #141519;
+  cursor: pointer;
+}
+
+.hero-section {
+  height: 620px;
+  width: 100%px;
+  background-image: url('haikyu.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.hero-section img {
+  width: 300px;
+  height: 70px;
+  padding: 100px 0 0 50px;
+}
+
+.hero-section pre {
+  color: #141519;
+}
+
+.buttons {
+  display: flex;
+}
+
+.start-watching {
+  display: inline;
+  margin-left: 40px;
+  padding: 15px;
+  text-align: center;
+  color: #000000;
+  background-color: #FF7B2E;
+}
+
+.hero-section img:hover {
+  cursor: pointer;
+}
+
+.start-watching:hover {
+  background-color: #ff9862;
+  cursor: pointer;
+}
+
+.bookmark {
+  color: #FF7B2E;
+  font-size: 25px;
+  text-align: center;
+  display: inline;
+  margin-left: 40px;
+  height: 47px;
+  width: 40px;
+  border: 3px solid #FF7B2E;
+}
+
+.bookmark:hover {
+  color: #ff9862;
+  cursor: pointer;
+  border: 3px solid #ff9862;
+}
+
+.heading h2 {
+  color: #FFFFFF;
+  padding-top: 10px;
+  padding-left: 40px;
+}
+
+.heading p {
+  color: #A0A0A0;
+  padding-left: 40px;
+}
+
+.slide-bar {
+  border: 0px solid #000000;
+  display: flex;
+  overflow-x: auto;
+}
+
+.slide-bar::-webkit-scrollbar {
+   width: 0px;
+   height: 0px;
+}
+
+.fairy-tail {
+  padding-top: 20px;
+  padding-left: 40px;
+}
+
+.fairy-tail img{
+  height: 290px;
+}
+
+.fairy-tail h5 {
+  color: #FFFFFF;
+}
+
+.fairy-tail p {
+  color: #A0A0A0;
+}
+
+.fairy-tail:hover {
+  cursor: pointer;
+}
+
+.solo-leveling {
+  padding-top: 20px;
+  padding-left: 40px;
+}
+
+.solo-leveling img{
+  width: 203px;
+  height: 290px;
+}
+
+.solo-leveling h5 {
+  color: #FFFFFF;
+}
+
+.solo-leveling p {
+  color: #A0A0A0;
+}
+
+.solo-leveling:hover {
+  cursor: pointer;
+}
+
+.jojo-bizard-adventure {
+  padding-top: 20px;
+  padding-left: 40px;
+}
+
+.jojo-bizard-adventure img{
+  width: 203px;
+  height: 290px;
+}
+
+.jojo-bizard-adventure h5 {
+  color: #FFFFFF;
+}
+
+.jojo-bizard-adventure p {
+  color: #A0A0A0;
+}
+
+.jojo-bizard-adventure:hover {
+  cursor: pointer;
+}
+
+.frieren-beyond-journeys-end {
+  padding-top: 20px;
+  padding-left: 40px;
+}
+
+.frieren-beyond-journeys-end img{
+  width: 203px;
+  height: 290px;
+}
+
+.frieren-beyond-journeys-end h5 {
+  color: #FFFFFF;
+}
+
+.frieren-beyond-journeys-end p {
+  color: #A0A0A0;
+}
+
+.frieren-beyond-journeys-end:hover {
+  cursor: pointer;
+}
+
+.mashle-magic-and-muscles {
+  padding-top: 20px;
+  padding-left: 40px;
+}
+
+.mashle-magic-and-muscles img{
+  width: 203px;
+  height: 290px;
+}
+
+.mashle-magic-and-muscles h5 {
+  color: #FFFFFF;
+}
+
+.mashle-magic-and-muscles p {
+  color: #A0A0A0;
+}
+
+.mashle-magic-and-muscles:hover {
+  cursor: pointer;
+}
+
+.sword-art-online {
+  padding-top: 20px;
+  padding-left: 40px;
+}
+
+.sword-art-online img{
+  width: 203px;
+  height: 290px;
+}
+
+.sword-art-online h5 {
+  color: #FFFFFF;
+}
+
+.sword-art-online p {
+  color: #A0A0A0;
+}
+
+.sword-art-online:hover {
+  cursor: pointer;
+}
+
+.chainsaw-man {
+  padding-top: 20px;
+  padding-left: 40px;
+}
+
+.chainsaw-man img{
+  width: 203px;
+  height: 290px;
+}
+
+.chainsaw-man h5 {
+  color: #FFFFFF;
+}
+
+.chainsaw-man p {
+  color: #A0A0A0;
+}
+
+.chainsaw-man:hover {
+  cursor: pointer;
+}
+
+.black-clover {
+  padding-top: 20px;
+  padding-left: 40px;
+}
+
+.black-clover img{
+  width: 203px;
+  height: 290px;
+}
+
+.black-clover h5 {
+  color: #FFFFFF;
+}
+
+.black-clover p {
+  color: #A0A0A0;
+}
+
+.black-clover:hover {
+  cursor: pointer;
+}
+
+.jujutsu-kaisen {
+  padding-top: 20px;
+  padding-left: 40px;
+}
+
+.jujutsu-kaisen img{
+  width: 203px;
+  height: 290px;
+}
+
+.jujutsu-kaisen h5 {
+  color: #FFFFFF;
+}
+
+.jujutsu-kaisen p {
+  color: #A0A0A0;
+}
+
+.jujutsu-kaisen:hover {
+  cursor: pointer;
+}
+
+.naruto-shippuden {
+  padding-top: 20px;
+  padding-left: 40px;
+}
+
+.naruto-shippuden img{
+  width: 203px;
+  height: 290px;
+}
+
+.naruto-shippuden h5 {
+  color: #FFFFFF;
+}
+
+.naruto-shippuden p {
+  color: #A0A0A0;
+}
+
+.naruto-shippuden:hover {
+  cursor: pointer;
+}
+
+.konosuba {
+  padding-top: 20px;
+  padding-left: 40px;
+}
+
+.konosuba img{
+  width: 203px;
+  height: 290px;
+}
+
+.konosuba h5 {
+  color: #FFFFFF;
+}
+
+.konosuba p {
+  color: #A0A0A0;
+}
+
+.konosuba:hover {
+  cursor: pointer;
+}
+
+.fullmetal-alchemist-brotherhood {
+  padding-top: 20px;
+  padding-left: 40px;
+}
+
+.fullmetal-alchemist-brotherhood img{
+  width: 203px;
+  height: 290px;
+}
+
+.fullmetal-alchemist-brotherhood h5 {
+  color: #FFFFFF;
+}
+
+.fullmetal-alchemist-brotherhood p {
+  color: #A0A0A0;
+}
+
+.fullmetal-alchemist-brotherhood:hover {
+  cursor: pointer;
+}
+
+.tower-of-god {
+  padding-top: 20px;
+  padding-left: 40px;
+}
+
+.tower-of-god img{
+  width: 203px;
+  height: 290px;
+}
+
+.tower-of-god h5 {
+  color: #FFFFFF;
+}
+
+.tower-of-god p {
+  color: #A0A0A0;
+}
+
+.tower-of-god:hover {
+  cursor: pointer;
+}
+
+.spy-x-family {
+  padding-top: 20px;
+  padding-left: 40px;
+}
+
+.spy-x-family img{
+  width: 203px;
+  height: 290px;
+}
+
+.spy-x-family h5 {
+  color: #FFFFFF;
+}
+
+.spy-x-family p {
+  color: #A0A0A0;
+}
+
+.spy-x-family:hover {
+  cursor: pointer;
+}
+
+.that-time-i-got-reincarnated-as-a-slime {
+  padding-top: 20px;
+  padding-left: 40px;
+}
+
+.that-time-i-got-reincarnated-as-a-slime img{
+  width: 203px;
+  height: 290px;
+}
+
+.that-time-i-got-reincarnated-as-a-slime h5 {
+  color: #FFFFFF;
+}
+
+.that-time-i-got-reincarnated-as-a-slime p {
+  color: #A0A0A0;
+}
+
+.that-time-i-got-reincarnated-as-a-slime:hover {
+  cursor: pointer;
+}
+
+.the-misfit-of-demon-king-academy {
+  padding-top: 20px;
+  padding-left: 40px;
+}
+
+.the-misfit-of-demon-king-academy img{
+  width: 203px;
+  height: 290px;
+}
+
+.the-misfit-of-demon-king-academy h5 {
+  color: #FFFFFF;
+}
+
+.the-misfit-of-demon-king-academy p {
+  color: #A0A0A0;
+}
+
+.the-misfit-of-demon-king-academy:hover {
+  cursor: pointer;
+}
+
+.fruits-basket {
+  padding-top: 20px;
+  padding-left: 40px;
+}
+
+.fruits-basket img{
+  width: 203px;
+  height: 290px;
+}
+
+.fruits-basket h5 {
+  color: #FFFFFF;
+}
+
+.fruits-basket p {
+  color: #A0A0A0;
+}
+
+.fruits-basket:hover {
+  cursor: pointer;
+}
+
+.assassination-classroom {
+  padding-top: 20px;
+  padding-left: 40px;
+}
+
+.assassination-classroom img{
+  width: 203px;
+  height: 290px;
+}
+
+.assassination-classroom h5 {
+  color: #FFFFFF;
+}
+
+.assassination-classroom p {
+  color: #A0A0A0;
+}
+
+.assassination-classroom:hover {
+  cursor: pointer;
+}
+
+.toilet-bound-hanako-kun {
+  padding-top: 20px;
+  padding-left: 40px;
+}
+
+.toilet-bound-hanako-kun img{
+  width: 203px;
+  height: 290px;
+}
+
+.toilet-bound-hanako-kun h5 {
+  color: #FFFFFF;
+}
+
+.toilet-bound-hanako-kun p {
+  color: #A0A0A0;
+}
+
+.toilet-bound-hanako-kun:hover {
+  cursor: pointer;
+}
+
+.tokyo-revengers {
+  padding-top: 20px;
+  padding-left: 40px;
+}
+
+.tokyo-revengers img{
+  width: 203px;
+  height: 290px;
+}
+
+.tokyo-revengers h5 {
+  color: #FFFFFF;
+}
+
+.tokyo-revengers p {
+  color: #A0A0A0;
+}
+
+.tokyo-revengers:hover {
+  cursor: pointer;
+}
+
+.haikyuu {
+  padding-top: 20px;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+.haikyuu img{
+  width: 203px;
+  height: 290px;
+}
+
+.haikyuu h5 {
+  color: #FFFFFF;
+}
+
+.haikyuu p {
+  color: #A0A0A0;
+}
+
+.haikyuu:hover {
+  cursor: pointer;
+}
+
+.highlight a img {
+  width: 1000px;
+  height: 320px;
+  position: relative;
+  top: 20px;
+  left: 130px;
+  bottom: 50px;
+}
+
+.seasonal {
+  margin-top: 10px;
+  padding-left: 40px;
+}
+
+.seasonal h2 {
+  color: #FFFFFF;
+  padding-top: 25px;
+  padding-left: 10px;
+}
+
+.seasonal p {
+  color: #A0A0A0;
+  padding-left: 10px;
+}
+
+.slide-bar-two {
+  border: 0px solid #000000;
+  display: flex;
+  overflow-x: auto;
+}
+
+.slide-bar-two::-webkit-scrollbar {
+   width: 0px;
+   height: 0px;
+}
+
+.three-sixty-days-to-the-wedding {
+  padding-top: 20px;
+  padding-left: 40px;
+}
+
+.three-sixty-days-to-the-wedding img {
+  padding-top: 0px;
+  height: 290px;
+}
+
+.three-sixty-days-to-the-wedding h5 {
+  color: #FFFFFF;
+}
+
+.three-sixty-days-to-the-wedding p {
+  color: #A0A0A0;
+}
+
+.three-sixty-days-to-the-wedding:hover {
+  cursor: pointer;
+}
+
+.a-terrified-teacher-at-ghoul-school {
+  padding-top: 20px;
+  padding-left: 40px;
+}
+
+.a-terrified-teacher-at-ghoul-school img {
+  padding-top: 0px;
+  height: 290px;
+}
+
+.a-terrified-teacher-at-ghoul-school h5 {
+  color: #FFFFFF;
+}
+
+.a-terrified-teacher-at-ghoul-school p {
+  color: #A0A0A0;
+}
+
+.a-terrified-teacher-at-ghoul-school:hover {
+  cursor: pointer;
+}
+
+.demon-lord {
+  padding-top: 20px;
+  padding-left: 40px;
+}
+
+.demon-lord img {
+  padding-top: 0px;
+  height: 290px;
+}
+
+.demon-lord h5 {
+  color: #FFFFFF;
+}
+
+.demon-lord p {
+  color: #A0A0A0;
+}
+
+.demon-lord:hover {
+  cursor: pointer;
+}
+
+.good-bye-dragon-life {
+  padding-top: 20px;
+  padding-left: 40px;
+}
+
+.good-bye-dragon-life img {
+  padding-top: 0px;
+  height: 290px;
+}
+
+.good-bye-dragon-life h5 {
+  color: #FFFFFF;
+}
+
+.good-bye-dragon-life p {
+  color: #A0A0A0;
+}
+
+.good-bye-dragon-life:hover {
+  cursor: pointer;
+}
+
+.i-will-become-a-villainess-who-goes-down-in-history {
+  padding-top: 20px;
+  padding-left: 40px;
+}
+
+.i-will-become-a-villainess-who-goes-down-in-history img {
+  padding-top: 0px;
+  height: 290px;
+}
+
+.i-will-become-a-villainess-who-goes-down-in-history h5 {
+  color: #FFFFFF;
+}
+
+.i-will-become-a-villainess-who-goes-down-in-history p {
+  color: #A0A0A0;
+}
+
+.i-will-become-a-villainess-who-goes-down-in-history:hover {
+  cursor: pointer;
+}
+
+.kinokoinu-mushroom-pup {
+  padding-top: 20px;
+  padding-left: 40px;
+}
+
+.kinokoinu-mushroom-pup img {
+  padding-top: 0px;
+  height: 290px;
+}
+
+.kinokoinu-mushroom-pup h5 {
+  color: #FFFFFF;
+}
+
+.kinokoinu-mushroom-pup p {
+  color: #A0A0A0;
+}
+
+.kinokoinu-mushroom-pup:hover {
+  cursor: pointer;
+}
+
+.let-this-grieving-soul-retire {
+  padding-top: 20px;
+  padding-left: 40px;
+}
+
+.let-this-grieving-soul-retire img {
+  padding-top: 0px;
+  height: 290px;
+}
+
+.let-this-grieving-soul-retire h5 {
+  color: #FFFFFF;
+}
+
+.let-this-grieving-soul-retire p {
+  color: #A0A0A0;
+}
+
+.let-this-grieving-soul-retire:hover {
+  cursor: pointer;
+}
+
+.mecha-ude-mechanical-arms {
+  padding-top: 20px;
+  padding-left: 40px;
+}
+
+.mecha-ude-mechanical-arms img {
+  padding-top: 0px;
+  height: 290px;
+}
+
+.mecha-ude-mechanical-arms h5 {
+  color: #FFFFFF;
+}
+
+.mecha-ude-mechanical-arms p {
+  color: #A0A0A0;
+}
+
+.mecha-ude-mechanical-arms:hover {
+  cursor: pointer;
+}
+
+.negative-positive-angler {
+  padding-top: 20px;
+  padding-left: 40px;
+}
+
+.negative-positive-angler img {
+  padding-top: 0px;
+  height: 290px;
+}
+
+.negative-positive-angler h5 {
+  color: #FFFFFF;
+}
+
+.negative-positive-angler p {
+  color: #A0A0A0;
+}
+
+.negative-positive-angler:hover {
+  cursor: pointer;
+}
+
+.nina-the-starry-bride {
+  padding-top: 20px;
+  padding-left: 40px;
+}
+
+.nina-the-starry-bride img {
+  padding-top: 0px;
+  height: 290px;
+}
+
+.nina-the-starry-bride h5 {
+  color: #FFFFFF;
+}
+
+.nina-the-starry-bride p {
+  color: #A0A0A0;
+}
+
+.nina-the-starry-bride:hover {
+  cursor: pointer;
+}
+
+.puniru-is-a-kawaii-slime {
+  padding-top: 20px;
+  padding-left: 40px;
+}
+
+.puniru-is-a-kawaii-slime img {
+  padding-top: 0px;
+  height: 290px;
+}
+
+.puniru-is-a-kawaii-slime h5 {
+  color: #FFFFFF;
+}
+
+.puniru-is-a-kawaii-slime p {
+  color: #A0A0A0;
+}
+
+.puniru-is-a-kawaii-slime:hover {
+  cursor: pointer;
+}
+
+.the-do-over-damsel-conquers-the-dragon-emperor {
+  padding-top: 20px;
+  padding-left: 40px;
+}
+
+.the-do-over-damsel-conquers-the-dragon-emperor img {
+  padding-top: 0px;
+  height: 290px;
+}
+
+.the-do-over-damsel-conquers-the-dragon-emperor h5 {
+  color: #FFFFFF;
+}
+
+.the-do-over-damsel-conquers-the-dragon-emperor p {
+  color: #A0A0A0;
+}
+
+.the-do-over-damsel-conquers-the-dragon-emperor:hover {
+  cursor: pointer;
+}
+
+.the-healer-who-was-banished-from-his-party-is-in-fact-the-strongest {
+  padding-top: 20px;
+  padding-left: 40px;
+}
+
+.the-healer-who-was-banished-from-his-party-is-in-fact-the-strongest img {
+  padding-top: 0px;
+  height: 290px;
+}
+
+.the-healer-who-was-banished-from-his-party-is-in-fact-the-strongest h5 {
+  color: #FFFFFF;
+}
+
+.the-healer-who-was-banished-from-his-party-is-in-fact-the-strongest p {
+  color: #A0A0A0;
+}
+
+.the-healer-who-was-banished-from-his-party-is-in-fact-the-strongest:hover {
+  cursor: pointer;
+}
+
+
+.the-most-notorious-talker-runs-the-worlds-greast-clan {
+  padding-top: 20px;
+  padding-left: 40px;
+}
+
+.the-most-notorious-talker-runs-the-worlds-greast-clan img {
+  padding-top: 0px;
+  height: 290px;
+}
+
+.the-most-notorious-talker-runs-the-worlds-greast-clan h5 {
+  color: #FFFFFF;
+}
+
+.the-most-notorious-talker-runs-the-worlds-greast-clan p {
+  color: #A0A0A0;
+}
+
+.the-most-notorious-talker-runs-the-worlds-greast-clan:hover {
+  cursor: pointer;
+}
+
+
+.the-stories-of-girls-who-couldnot-be-magicians {
+  padding-top: 20px;
+  padding-left: 40px;
+}
+
+.the-stories-of-girls-who-couldnot-be-magicians img {
+  padding-top: 0px;
+  height: 290px;
+}
+
+.the-stories-of-girls-who-couldnot-be-magicians h5 {
+  color: #FFFFFF;
+}
+
+.the-stories-of-girls-who-couldnot-be-magicians p {
+  color: #A0A0A0;
+}
+
+.the-stories-of-girls-who-couldnot-be-magicians:hover {
+  cursor: pointer;
+}
+
+.trillion-game {
+  padding-top: 20px;
+  padding-left: 40px;
+}
+
+.trillion-game img {
+  padding-top: 0px;
+  height: 290px;
+}
+
+.trillion-game h5 {
+  color: #FFFFFF;
+}
+
+.trillion-game p {
+  color: #A0A0A0;
+}
+
+.trillion-game:hover {
+  cursor: pointer;
+}
+
+.tying-the-knot-with-an-amagami-sister {
+  padding-top: 20px;
+  padding-left: 40px;
+}
+
+.tying-the-knot-with-an-amagami-sister img {
+  padding-top: 0px;
+  height: 290px;
+}
+
+.tying-the-knot-with-an-amagami-sister h5 {
+  color: #FFFFFF;
+}
+
+.tying-the-knot-with-an-amagami-sister p {
+  color: #A0A0A0;
+}
+
+.tying-the-knot-with-an-amagami-sister:hover {
+  cursor: pointer;
+}
+
+.you-are-ms-servant {
+  padding-top: 20px;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+.you-are-ms-servant img {
+  padding-top: 0px;
+  height: 290px;
+}
+
+.you-are-ms-servant h5 {
+  color: #FFFFFF;
+}
+
+.you-are-ms-servant p {
+  color: #A0A0A0;
+}
+
+.you-are-ms-servant:hover {
+  cursor: pointer;
+}
+
+.top-picks h2 {
+  color: #FFFFFF;
+  padding-top: 10px;
+  padding-left: 40px;
+}
+
+.slide-bar-3 {
+  border: 0px solid #000000;
+  display: flex;
+  overflow-x: auto;
+}
+
+.slide-bar-3::-webkit-scrollbar {
+   width: 0px;
+   height: 0px;
+}
+
+.anime1 {
+  padding-top: 20px;
+  padding-left: 40px;
+}
+
+.anime1 img {
+  height: 290px;
+}
+
+.anime1 h5 {
+  color: #FFFFFF;
+}
+
+.anime1 p {
+  color: #A0A0A0;
+}
+
+.anime1:hover {
+  cursor: pointer;
+}
+
+.anime2 {
+  padding-top: 20px;
+  padding-left: 40px;
+}
+
+.anime2 img {
+  height: 290px;
+}
+
+.anime2 h5 {
+  color: #FFFFFF;
+}
+
+.anime2 p {
+  color: #A0A0A0;
+}
+
+.anime2:hover {
+  cursor: pointer;
+}
+
+.anime3 {
+  padding-top: 20px;
+  padding-left: 40px;
+}
+
+.anime3 img {
+  height: 290px;
+}
+
+.anime3 h5 {
+  color: #FFFFFF;
+}
+
+.anime3 p {
+  color: #A0A0A0;
+}
+
+.anime3:hover {
+  cursor: pointer;
+}
+
+.anime4 {
+  padding-top: 20px;
+  padding-left: 40px;
+}
+
+.anime4 img {
+  height: 290px;
+}
+
+.anime4 h5 {
+  color: #FFFFFF;
+}
+
+.anime4 p {
+  color: #A0A0A0;
+}
+
+.anime4:hover {
+  cursor: pointer;
+}
+
+.anime5 {
+  padding-top: 20px;
+  padding-left: 40px;
+}
+
+.anime5 img {
+  height: 290px;
+}
+
+.anime5 h5 {
+  color: #FFFFFF;
+}
+
+.anime5 p {
+  color: #A0A0A0;
+}
+
+.anime5:hover {
+  cursor: pointer;
+}
+
+.anime6 {
+  padding-top: 20px;
+  padding-left: 40px;
+}
+
+.anime6 img {
+  height: 290px;
+}
+
+.anime6 h5 {
+  color: #FFFFFF;
+}
+
+.anime6 p {
+  color: #A0A0A0;
+}
+
+.anime6:hover {
+  cursor: pointer;
+}
+
+.anime7 {
+  padding-top: 20px;
+  padding-left: 40px;
+}
+
+.anime7 img {
+  height: 290px;
+}
+
+.anime7 h5 {
+  color: #FFFFFF;
+}
+
+.anime7 p {
+  color: #A0A0A0;
+}
+
+.anime7:hover {
+  cursor: pointer;
+}
+
+.anime8 {
+  padding-top: 20px;
+  padding-left: 40px;
+}
+
+.anime8 img {
+  height: 290px;
+}
+
+.anime8 h5 {
+  color: #FFFFFF;
+}
+
+.anime8 p {
+  color: #A0A0A0;
+}
+
+.anime8:hover {
+  cursor: pointer;
+}
+
+.anime9 {
+  padding-top: 20px;
+  padding-left: 40px;
+}
+
+.anime9 img {
+  height: 290px;
+}
+
+.anime9 h5 {
+  color: #FFFFFF;
+}
+
+.anime9 p {
+  color: #A0A0A0;
+}
+
+.anime9:hover {
+  cursor: pointer;
+}
+
+.anime10 {
+  padding-top: 20px;
+  padding-left: 40px;
+}
+
+.anime10 img {
+  height: 290px;
+}
+
+.anime10 h5 {
+  color: #FFFFFF;
+}
+
+.anime10 p {
+  color: #A0A0A0;
+}
+
+.anime10:hover {
+  cursor: pointer;
+}
+
+.anime11 {
+  padding-top: 20px;
+  padding-left: 40px;
+}
+
+.anime11 img {
+  height: 290px;
+}
+
+.anime11 h5 {
+  color: #FFFFFF;
+}
+
+.anime11 p {
+  color: #A0A0A0;
+}
+
+.anime11:hover {
+  cursor: pointer;
+}
+
+.anime12 {
+  padding-top: 20px;
+  padding-left: 40px;
+}
+
+.anime12 img {
+  height: 290px;
+}
+
+.anime12 h5 {
+  color: #FFFFFF;
+}
+
+.anime12 p {
+  color: #A0A0A0;
+}
+
+.anime12:hover {
+  cursor: pointer;
+}
+
+.anime13 {
+  padding-top: 20px;
+  padding-left: 40px;
+}
+
+.anime13 img {
+  height: 290px;
+}
+
+.anime13 h5 {
+  color: #FFFFFF;
+}
+
+.anime13 p {
+  color: #A0A0A0;
+}
+
+.anime13:hover {
+  cursor: pointer;
+}
+
+.anime14 {
+  padding-top: 20px;
+  padding-left: 40px;
+}
+
+.anime14 img {
+  height: 290px;
+}
+
+.anime14 h5 {
+  color: #FFFFFF;
+}
+
+.anime14 p {
+  color: #A0A0A0;
+}
+
+.anime14:hover {
+  cursor: pointer;
+}
+
+.anime15 {
+  padding-top: 20px;
+  padding-left: 40px;
+}
+
+.anime15 img {
+  height: 290px;
+}
+
+.anime15 h5 {
+  color: #FFFFFF;
+}
+
+.anime15 p {
+  color: #A0A0A0;
+}
+
+.anime15:hover {
+  cursor: pointer;
+}
+
+.anime16 {
+  padding-top: 20px;
+  padding-left: 40px;
+}
+
+.anime16 img {
+  height: 290px;
+}
+
+.anime16 h5 {
+  color: #FFFFFF;
+}
+
+.anime16 p {
+  color: #A0A0A0;
+}
+
+.anime16:hover {
+  cursor: pointer;
+}
+
+.anime17 {
+  padding-top: 20px;
+  padding-left: 40px;
+}
+
+.anime17 img {
+  height: 290px;
+}
+
+.anime17 h5 {
+  color: #FFFFFF;
+}
+
+.anime17 p {
+  color: #A0A0A0;
+}
+
+.anime17:hover {
+  cursor: pointer;
+}
+
+.anime18 {
+  padding-top: 20px;
+  padding-left: 40px;
+}
+
+.anime18 img {
+  height: 290px;
+}
+
+.anime18 h5 {
+  color: #FFFFFF;
+}
+
+.anime18 p {
+  color: #A0A0A0;
+}
+
+.anime19 {
+  padding-top: 20px;
+  padding-left: 40px;
+}
+
+.anime19 img {
+  height: 290px;
+}
+
+.anime19 h5 {
+  color: #FFFFFF;
+}
+
+.anime19 p {
+  color: #A0A0A0;
+}
+
+.anime19:hover {
+  cursor: pointer;
+}
+
+.anime19:hover {
+  cursor: pointer;
+}
+
+.live-area {
+  color: #FFFFFF;
+  padding-top: 50px;
+  padding-left: 40px;
+  padding-right: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.live-area h2 {
+  font-size: 28px;
+}
+
+.live-area i {
+  padding-right: 10px;
+}
+
+.live-area p {
+  color: #A0A0A0;
+}
+
+.live-area p:hover {
+  color: #FFFFFF;
+  cursor: pointer;
+}
+
+.today h4 {
+  color: #FFFFFF;
+  padding-top: 40px;
+  padding-left: 40px;
+  font-size: 22px;
+}
+
+.anime-cal {
+  display: flex;
+  margin-left: 40px;
+  width: 90vw;
+  border-top: 5px solid #A0A0A0;
+}
+
+.cal-anime-1 {
+  display: flex;
+  width: 500px;
+}
+
+.cal-anime-1 img{
+  height: 85px;
+  width: 200px;
+  padding-top: 20px;
+}
+
+.cal-anime-1 p {
+  color: #FFFFFF;
+  padding-top: 20px;
+  padding-left: 10px;
+}
+
+.cal-anime-1 .paradraphs .para {
+  padding-top: 5px;
+  color: #A0A0A0;
+  padding-left: 10px;
+}
+
+.cal-anime-1:hover {
+  cursor: pointer;
+}
+
+.pre-span {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.pre-span span {
+  color: aqua;
+}
+
+.cal-anime-2 {
+  display: flex;
+  width: 500px;
+  margin-left: 100px;
+}
+
+.cal-anime-2 img{
+  height: 85px;
+  width: 200px;
+  padding-top: 20px;
+}
+
+.cal-anime-2 p {
+  color: #FFFFFF;
+  padding-top: 20px;
+  padding-left: 10px;
+}
+
+.cal-anime-2 .paradraphs .para {
+  padding-top: 5px;
+  color: #A0A0A0;
+  padding-left: 10px;
+}
+
+.cal-anime-2:hover {
+  cursor: pointer;
+}
+
+.anime-cal-1 {
+  display: flex;
+  margin-left: 40px;
+  width: 90vw;
+}
+
+.cal-anime-01 {
+  display: flex;
+  width: 500px;
+}
+
+.cal-anime-01 img{
+  height: 85px;
+  width: 200px;
+  padding-top: 20px;
+}
+
+.cal-anime-01 p {
+  color: #FFFFFF;
+  padding-top: 20px;
+  padding-left: 10px;
+}
+
+.cal-anime-01 .paradraphs .para {
+  padding-top: 5px;
+  color: #A0A0A0;
+  padding-left: 10px;
+}
+
+.cal-anime-01:hover {
+  cursor: pointer;
+}
+
+.cal-anime-02 {
+  display: flex;
+  width: 500px;
+  margin-left: 100px;
+}
+
+.cal-anime-02 img{
+  height: 85px;
+  width: 200px;
+  padding-top: 20px;
+}
+
+.cal-anime-02 p {
+  color: #FFFFFF;
+  padding-top: 20px;
+  padding-left: 10px;
+}
+
+.cal-anime-02 .paradraphs .para {
+  padding-top: 5px;
+  color: #A0A0A0;
+  padding-left: 10px;
+}
+
+.cal-anime-02:hover {
+  cursor: pointer;
+}
+
+.cal-anime-001 {
+  display: flex;
+  width: 500px;
+  margin-left: 40px;
+}
+
+.cal-anime-001 img{
+  height: 85px;
+  width: 200px;
+  padding-top: 20px;
+}
+
+.cal-anime-001 p {
+  color: #FFFFFF;
+  padding-top: 20px;
+  padding-left: 10px;
+}
+
+.cal-anime-001 .paradraphs .para {
+  padding-top: 5px;
+  color: #A0A0A0;
+  padding-left: 10px;
+}
+
+.cal-anime-001:hover {
+  cursor: pointer;
+}
+
+.show-more {
+  color: #FFFFFF;
+  background-color: #25404d;
+  height: 40px;
+  width: 885px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+  margin-left: 185px;
+  margin-top: 50px;
+}
+
+.show-more:hover {
+  background-color: #2F5161;
+  cursor: pointer;
+}
+
+.news-section {
+  width: 100%;
+  height: 850px;
+  background: linear-gradient(180deg, #FAB718, #F57921, #EF4523);
+  margin-top: 50px;
+}
+
+.news-container {
+  height: 750px;
+  width: 1100px;
+  background-color: #000000;
+  position: relative;
+  top: 50px;
+  left: 80px;
+}
+
+.announcement {
+  color: #FFFFFF;
+  padding-top: 20px;
+  padding-left: 40px;
+  padding-right: 4opx;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.announcement h2 i {
+  padding-right: 10px;
+}
+
+.announcement p {
+  padding-right: 40px;
+  color: #7f7f7f;
+}
+
+.announcement p i {
+  padding-left: 10px;
+}
+
+.announcement p:hover {
+  color: #FFFFFF;
+  cursor: pointer;
+}
+
+.news-1 img {
+  height: 140px;
+  width: 250px;
+  padding-top: 20px;
+}
+
+.top-news {
+  padding-top: 20px;
+  padding-left: 40px;
+}
+
+.top-news h4 {
+  color: #FFFFFF;
+}
+
+.news-1 {
+  height: 200px;
+  width: 900px;
+  display: flex;
+  align-items: center;
+}
+
+.news-1 #topic {
+  color: #FFFFFF;
+}
+
+.news-1 p {
+  color: #7f7f7f;
+}
+
+.news-2 {
+  display: flex;
+  align-items: center;
+  width: 900px;
+  height: 200px;
+  margin-top: 70px;
+}
+
+.news-2 #topic-2 {
+  color: #FFFFFF;
+}
+
+.news-2 p {
+  color: #7f7f7f;
+}
+
+.news-2 img {
+  height: 140px;
+  width: 250px;
+  padding-top: 20px;
+}
+
+.hero-image-3 img {
+  height: 350px;
+  width: 1200px;
+  margin-top: 50px;
+  margin-left: 30px;
+}
+
+.paras {
+  display: flex;
+  justify-content: space-between;
+}
+
+.news-para {
+  padding-left: 33px;
+}
+
+.news-para #topic {
+  padding-bottom: 30px;
+}
+
+.news-para #author {
+  padding-top: 30px;
+}
+
+.news-para #time {
+  color: aqua;
+}
+
+.news-1:hover {
+  cursor: pointer;
+  background-color: #141519;
+}
+
+.news-2 #paras{
+  display: flex;
+  justify-content: space-between;
+}
+
+.news-para {
+  padding-left: 33px;
+}
+
+.news-para #topic-2 {
+  padding-bottom: 25px;
+}
+
+.news-para #author-2 {
+  padding-top: 28px;
+}
+
+.news-para #time-2 {
+  color: aqua;
+}
+
+.news-2:hover {
+  cursor: pointer;
+  background-color: #141519;
+}
+
+.trending {
+  color: #FFFFFF;
+  margin-top: 50px;
+  margin-left: 40px;
+  margin-right: 40px;
+  display: flex;
+}
+
+.trending h2 {
+  width: 235px;
+}
+
+.trending img {
+  height: 245px;
+  width: 430px;
+}
+
+.trending .buttons {
+  display: flex;
+}
+
+.trending .content {
+  padding-left: 30px;
+}
+
+.trending #audio {
+  color: #7f7f7f;
+  padding-top: 20px;
+}
+
+.trending #paragraph {
+  padding-top: 20px;
+}
+
+.trending .buttons {
+  padding-top: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.trending h2:hover {
+  text-decoration: 3px underline;
+  cursor: pointer;
+}
+
+.buttons .episode {
+  height: 40px;
+  width: 200px;
+  background-color: #FF7B2E;
+  color: #000000;
+  padding-top: 20px;
+  padding-left: 10px;
+  font-size: 16px;
+}
+
+.episode:hover {
+  background-color: #ff9862;
+  cursor: pointer;
+}
+
+.buttons .save-later {
+  height: 40px;
+  width: 200px;
+  color: #F57921;
+  border: 3px solid #F57921;
+  padding-top: 20px;
+  padding-left: 10px;
+  font-size: 16px;
+}
+
+.save-later:hover {
+  cursor: pointer;
+}
+
+.buttons .save-later {
+  height: 40px;
+  width: 200px;
+}
+
+.trending .episode i {
+  margin-right: 10px;
+}
+
+.trending .save-later i {
+  margin-right: 10px;
+}
+
+.hero-image-4 img {
+  height: 350px;
+  width: 1200px;
+  margin-top: 50px;
+  margin-left: 30px;
+}
+
+.footer img {
+  height: 95px;
+  width: 250px;
+}
+
+.end {
+  width: 400px;
+  position: relative;
+  top: 40px;
+  left: 500px;
+}
+
+.footer .end pre {
+  color: #FFFFFF;
+  padding-top: 10px;
+  padding-bottom: 30px;
+}
+
+.end .btn {
+  height: 40px;
+  width: 120px;
+  color: #F57921;
+  border: 3px solid #F57921;
+  margin-left: 80px;
+}
+
+.btn:hover {
+  color: #ff9862;
+  border: 3px solid #ff9862;
+  cursor: pointer;
+}
+
+.btn p {
+  position: relative;
+  top: 10px;
+  left: 20px;
+}
+
+.main-footer {
+  width: 100%;
+  height: 720px;
+  margin-top: 40px;
+  background: linear-gradient(3600deg, #1A2D35, #0F1B20, #000000);
+}
+
+
+.main-footer .navigation h4 {
+  color: #FFFFFF;
+}
+
+.main-footer .navigation p {
+  color: #7f7f7f;
+  padding-top: 10px;
+}
+
+.navigation p:hover {
+  color: #FFFFFF;
+  text-decoration: 2px underline;
+  cursor: pointer;
+}
+
+.connect-with-us h4 {
+  color: #FFFFFF;
+}
+
+.connect-with-us p {
+  color: #7f7f7f;
+  padding-top: 10px;
+}
+
+.connect-with-us p:hover{
+  color: #FFFFFF;
+  text-decoration: 2px underline;
+  cursor: pointer;
+}
+
+.connect-with-us i {
+  padding-right: 5px;
+}
+
+.crunchyroll h4 {
+  color: #FFFFFF;
+}
+
+.crunchyroll pre {
+  color: #7f7f7f;
+}
+
+.crunchyroll pre:hover {
+  color: #FFFFFF;
+  text-decoration: 2px underline;
+  cursor: pointer;
+}
+
+.crunchyroll #spe {
+  color: goldenrod;
+}
+
+#spe i {
+  padding-right: 5px;
+}
+
+.crunchyroll p {
+  color: #7f7f7f;
+  padding-top: 10px;
+}
+
+.crunchyroll p:hover {
+  color: #FFFFFF;
+  text-decoration: 2px underline;
+  cursor: pointer;
+}
+
+.crunchyroll #spe:hover {
+  color: #FFFFFF;
+  text-decoration: 2px underline;
+}
+
+.account h4 {
+  color: #FFFFFF;
+}
+
+.account p {
+  color: #7f7f7f;
+  padding-top: 10px;
+}
+
+.account p:hover {
+  color: #FFFFFF;
+  text-decoration: 2px underline;
+  cursor: pointer;
+}
+
+.ended {
+  width: 1080px;
+  height: 90px;
+  border-top: 2px solid #A0A0A0;
+  position: relative;
+  top: 170px;
+  left: 80px;
+  display: flex;
+}
+
+.crunchyroll-section {
+  position: relative;
+  top: 60px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.ended p {
+  color: #A0A0A0;
+  position: relative;
+  top: 20px;
+}
+
+.ended #sony {
+  font-family: "Nunito", sans-serif;
+  font-weight: 7500;
+  padding-right: 8px;
+}
+
+.ended i {
+  padding-left: 8px;
+  padding-right: 5px;
+}
+
+.ended #language {
+  height: 50px;
+  width: 120px;
+  color: #A0A0A0;
+  text-align: center;
+  background-color: transparent;
+  border: none;
+  font-size: 18px;
+  position: relative;
+  top: 10px;
+  left: 650px;
+}
+
+#language:hover {
+  cursor: pointer;
+  color: #FFFFFF;
+  background-color: #23252B;
+}
+
+#language option {
+  color: #A0A0A0;
+  background-color: #23252B;
+}
