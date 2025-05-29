@@ -160,7 +160,7 @@ body {
 .hero-section {
   height: 620px;
   width: 100%px;
-  background-image: url('haikyu.png');
+  background-image: url('./images/haikyu.png');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
