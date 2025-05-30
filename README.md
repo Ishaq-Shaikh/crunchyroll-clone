@@ -4,7 +4,7 @@ This project is a **clone of the Crunchyroll homepage**, created using **only HT
 
 > 🔧 This is a **static and non-responsive** version – ideal for beginners learning layout and styling.
 
-![Screenshot](video_screenshots/screenshot_1.png) <!-- Replace with actual path on GitHub -->
+![Screenshot](video_screenshots/screenshot_1.png)
 
 ---
 
@@ -31,14 +31,6 @@ This project is a **clone of the Crunchyroll homepage**, created using **only HT
 | Start | Middle | End |
 |-------|--------|-----|
 | ![Start](video_screenshots/screenshot_1.png) | ![Middle](video_screenshots/screenshot_2.png) | ![End](video_screenshots/screenshot_3.png) |
-
----
-
-## 🎥 Demo
-
-Watch a preview of the project:
-
-📽️ [Download Demo Video](./4ccea412-1289-47a9-9369-111d67903216.mp4)
 
 ---
 
