@@ -66,7 +66,7 @@ While cloning the Crunchyroll homepage, I learned how to:
 
 ---
 
-** 📌 Future Plans
+## 📌 Future Plans
 
 - Make the layout fully responsive
 
@@ -75,3 +75,11 @@ While cloning the Crunchyroll homepage, I learned how to:
 - Integrate animations and transitions
 
 - Possibly convert to a React/Next.js project later
+
+---
+
+## 🙌 Acknowledgements
+
+- Inspired by [crunchyroll]([https://ishaq-shaikh.github.io/crunchyroll-clone/](https://www.crunchyroll.com/?srsltid=AfmBOoqGFsQFTXQQDdARiXHtfdyaQ2SmD7lO1Nb-ef6MYH6GdlHErv-r))
+
+- Icons, fonts, and layout styles taken directly from the Crunchyroll interface as design reference
