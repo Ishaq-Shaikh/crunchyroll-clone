@@ -31,7 +31,7 @@ This project is a **clone of the Crunchyroll homepage**, created using **only HT
 
 | Start | Middle | End |
 |-------|--------|-----|
-| ![Start](video_screenshots/screenshot_1.png) | ![Middle](video_screenshots/screenshot_2.png) | ![End](video_screenshots/screenshot_3.png) |
+| ![Start](https://github.com/Ishaq-Shaikh/crunchyroll-clone/blob/f0e30d8593afbb77fbf72726bea0c8b5a6f4665e/Screenshot-1.png) | ![Middle](https://github.com/Ishaq-Shaikh/crunchyroll-clone/blob/f0e30d8593afbb77fbf72726bea0c8b5a6f4665e/Screenshot-2.png) | ![End](https://github.com/Ishaq-Shaikh/crunchyroll-clone/blob/f0e30d8593afbb77fbf72726bea0c8b5a6f4665e/Screenshot-3.png)
 
 ---
 
