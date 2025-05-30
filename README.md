@@ -5,7 +5,7 @@ This project is a **clone of the Crunchyroll homepage**, created using **only HT
 > 🔧 This is a **static and non-responsive** version – ideal for beginners learning layout and styling.
 ---
 
-📽️ [Watch Demo Video on Google Drive](https://drive.google.com/file/d/171rdbYaeme5NnneUcG2O1oNnh606TKZw/view?usp=drive_link)
+** 📽️ [Watch Demo Video on Google Drive](https://drive.google.com/file/d/171rdbYaeme5NnneUcG2O1oNnh606TKZw/view?usp=drive_link) **
 
 ---
 
