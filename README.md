@@ -11,19 +11,19 @@ This project is a **clone of the Crunchyroll homepage**, created using **only HT
 
 ## 🎯 Project Goals
 
-- Recreate the Crunchyroll UI as closely as possible using pure HTML & CSS  
-- Practice layout techniques with Flexbox and Grid  
-- Enhance CSS skills through a real-world clone project  
+- Recreate the Crunchyroll UI as closely as possible using pure HTML & CSS.  
+- Practice layout techniques with Flexbox and css properties.  
+- Enhance CSS skills through a real-world clone project.  
 
 ---
 
 ## ✨ Features
 
-- 🎨 Clean and modern UI similar to Crunchyroll  
-- 💡 Organized with semantic HTML5 tags  
-- 🖼️ Image banners, sections, and media cards  
-- 📄 Easy-to-read and well-structured code  
-- 📽️ Includes a demo video preview  
+- 🎨 Clean and modern UI similar to Crunchyroll.  
+- 💡 Organized with semantic HTML5 tags.  
+- 🖼️ Image banners, sections, and media cards.  
+- 📄 Easy-to-read and well-structured code.  
+- 📽️ Includes a demo video preview.  
 
 ---
 
@@ -37,16 +37,16 @@ This project is a **clone of the Crunchyroll homepage**, created using **only HT
 
 ## 🛠️ Built With
 
-- **HTML5** – Semantic structure and layout  
-- **CSS3** – Styling and layout with Flexbox & basic effects
+- **HTML5** – Semantic structure and layout.  
+- **CSS3** – Styling and layout with Flexbox & basic effects.
 
 ---
 
 ## 🚫 Limitations
 
-- ❌ Not responsive (Doesn't adapt to mobile screens)  
-- ❌ No interactivity or JavaScript functionality  
-- ❌ Not connected to any backend or database  
+- ❌ Not responsive (Doesn't adapt to mobile screens).  
+- ❌ No interactivity or JavaScript functionality.  
+- ❌ Not connected to any backend or database.  
 
 ---
 
@@ -54,9 +54,9 @@ This project is a **clone of the Crunchyroll homepage**, created using **only HT
 
 While cloning the Crunchyroll homepage, I learned how to:
 
-- Break down a complex UI into simple HTML sections  
-- Use CSS to closely replicate modern web design  
-- Improve visual accuracy and attention to detail  
+- Break down a complex UI into simple HTML sections.  
+- Use CSS to closely replicate modern web design.  
+- Improve visual accuracy and attention to detail.  
 
 ---
 
@@ -68,18 +68,28 @@ While cloning the Crunchyroll homepage, I learned how to:
 
 ## 📌 Future Plans
 
-- Make the layout fully responsive
+- Make the layout fully responsive.
 
-- Add interactivity with JavaScript
+- Add interactivity with JavaScript.
 
-- Integrate animations and transitions
+- Integrate animations and transitions.
 
-- Possibly convert to a React/Next.js project later
+- Possibly convert to a React/Next.js project later.
 
 ---
 
 ## 🙌 Acknowledgements
 
-- Inspired by [crunchyroll]([https://ishaq-shaikh.github.io/crunchyroll-clone/](https://www.crunchyroll.com/?srsltid=AfmBOoqGFsQFTXQQDdARiXHtfdyaQ2SmD7lO1Nb-ef6MYH6GdlHErv-r))
+- Inspired by **Crunchyroll**.
 
-- Icons, fonts, and layout styles taken directly from the Crunchyroll interface as design reference
+- Icons, fonts, and layout styles taken directly from the **Crunchyroll** interface as design reference.
+
+---
+
+## 📫 Contact
+
+If you liked this project or have any suggestions contact me:
+
+- GitHub: Ishaq-Shaikh
+
+- Email: ishaqshaikh241@gmail.com
