@@ -60,8 +60,8 @@ While cloning the Crunchyroll homepage, I learned how to:
 
 ---
 
-## 🚀 How to Run
+## 🚀 Run Website clone
 
-1. Clone the repository:
+1. Click the below link to open it:
    ```bash
-   git clone https://github.com/your-username/crunchyroll-clone.git
+   https://ishaq-shaikh.github.io/crunchyroll-clone/
