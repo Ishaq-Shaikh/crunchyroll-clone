@@ -62,6 +62,16 @@ While cloning the Crunchyroll homepage, I learned how to:
 
 ## 🚀 Run Website clone
 
-1. Click the below link to open it:
-   ```bash
-   https://ishaq-shaikh.github.io/crunchyroll-clone/
+[click and view website by you'r own.](https://ishaq-shaikh.github.io/crunchyroll-clone/)
+
+---
+
+** 📌 Future Plans
+
+- Make the layout fully responsive
+
+- Add interactivity with JavaScript
+
+- Integrate animations and transitions
+
+- Possibly convert to a React/Next.js project later
