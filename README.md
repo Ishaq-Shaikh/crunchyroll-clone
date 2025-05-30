@@ -1,6 +1,6 @@
 # 🎌 Crunchyroll Website Clone
 
-This project is a **clone of the Crunchyroll homepage**, created using **only HTML5 and CSS3**. It's a front-end practice project focused on recreating the visual style and layout of the original Crunchyroll website.
+This project is a **clone of the Crunchyroll full website**, created using **only HTML5 and CSS3**. It's a front-end practice project focused on recreating the visual style and layout of the original Crunchyroll website.
 
 > 🔧 This is a **static and non-responsive** version – ideal for beginners learning layout and styling.
 ---
@@ -52,7 +52,7 @@ This project is a **clone of the Crunchyroll homepage**, created using **only HT
 
 ## 🧠 Lessons Learned
 
-While cloning the Crunchyroll homepage, I learned how to:
+While cloning the Crunchyroll website, I learned how to:
 
 - Break down a complex UI into simple HTML sections.  
 - Use CSS to closely replicate modern web design.  
@@ -74,7 +74,7 @@ While cloning the Crunchyroll homepage, I learned how to:
 
 - Integrate animations and transitions.
 
-- Possibly convert to a React/Next.js project later.
+- Possibly convert to a React.js project later.
 
 ---
 
@@ -93,3 +93,8 @@ If you liked this project or have any suggestions contact me:
 - GitHub: Ishaq-Shaikh
 
 - Email: ishaqshaikh241@gmail.com
+
+---
+
+
+# Thanks for reading carefully 😊.
